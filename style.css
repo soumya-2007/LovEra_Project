@@ -102,3 +102,235 @@ h1 {
     color: #ff79a8;
     text-decoration: none;
 }
+/* .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 80px 60px;
+max-width: 1400px;
+margin: auto;
+}
+
+
+.text-section {
+width: 45%;
+}
+
+
+.text-section h1 {
+font-size: 42px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+
+
+.text-section p {
+line-height: 1.6;
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+
+.cta-btn {
+padding: 14px 28px;
+background: #1b1208;
+color: #fff;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+}
+
+
+.image-section {
+width: 50%;
+
+display: flex;
+justify-content: center;
+}
+
+
+.tablet-mockup {
+width: 90%;
+max-width: 600px;
+border-radius: 20px;
+box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+} */
+/* 
+.planning-section {
+    width: 90%;
+    margin: 60px auto;
+    font-family: "Inter", sans-serif;
+}
+
+.planning-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+}
+
+.planning-header p {
+    margin-top: 5px;
+    font-size: 17px;
+    color: #555;
+}
+
+.planning-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.planning-card {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.planning-card:hover {
+    transform: translateY(-4px);
+}
+
+.big-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.big-card .card-text {
+    padding: 25px;
+    width: 50%;
+}
+
+.big-card img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 14px 14px 0;
+}
+
+.planning-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #222;
+    font-weight: 700;
+}
+
+.planning-card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #d60000;
+    font-weight: 600;
+    text-decoration: none;
+} */
+/* ------------------------------
+   LOVERA PLANNING SECTION
+--------------------------------*/
+
+.lovera-plan {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    font-family: "Inter", sans-serif;
+}
+
+.plan-header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.plan-header p {
+    margin-top: 5px;
+    color: #666;
+    font-size: 17px;
+}
+
+.plan-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 25px;
+}
+
+.plan-card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    transition: 0.25s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.big-card {
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.plan-content {
+    width: 50%;
+    padding: 25px;
+}
+
+.plan-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.plan-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.plan-card p {
+    margin-top: 6px;
+    color: #555;
+    font-size: 15px;
+}
+
+.lovera-link {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff83b0; /* LOVERA pink */
+    text-decoration: none;
+}
+
+.lovera-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .big-card {
+        flex-direction: column;
+    }
+
+    .plan-content,
+    .plan-img {
+        width: 100%;
+    }
+
+    .plan-img {
+        height: 200px;
+    }
+}
